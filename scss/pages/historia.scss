@@ -1,0 +1,76 @@
+/******************************historia*********************/
+.container-historia {
+    width: 1000px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 30px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  
+    h1{
+      color: $color-letra;
+    font-family:$tipo-letra;
+    }
+    hr {
+      height: 2px;
+      margin-left: -1%;
+      margin-right: 1%;
+      margin-top: -1%;
+      border: 1px solid #fa8807;
+    }
+  }
+  @media (min-width: 400px) {
+    .container-historia {
+      max-width: 100%;
+    }
+    
+  }
+    
+  .nav-lista-historia {
+    row-gap: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    li a {
+      border: 2px solid rgb(229, 224, 224);
+      border-radius: 5px;
+      padding: 10px 10px;
+    }
+  }
+  .img-fluid {
+    max-width: 100%;
+  }
+  
+  .historias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      line-height: 50px;
+      margin: 15px 0px 10px 70px;
+      line-height: inherit;
+      font-size: 16px;
+      line-height: 30px;
+      padding-right: 35px;
+    }
+    img {
+      justify-content: center;
+      border: 2px solid transparent;
+      width: 200px;
+      height: 300px;
+      margin-left: 30%;
+      width: 35%; /*para q la imagen quede dentro de la tarjeta*/
+      /* overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    }
+  }
+  

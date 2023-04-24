@@ -1,0 +1,66 @@
+
+/******************direcciones-contacto2**************/
+.container-contacto2 {
+    width: 900px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 70px;
+    margin-top: 60px;
+    display: flex;
+  
+    hr {
+      height: 2px;
+      margin-left: -2%;
+      margin-right: -100%;
+      margin-top: 1%;
+      border: 1px solid #fa8807;
+      /* background-color: #ffbc3b;    */
+    }
+  h1{
+      color: $color-letra;
+    font-family:$tipo-letra;
+  }
+    h2 {
+      padding-top: 15px;
+      padding-left: -5%;
+      font-size: 22px;
+      padding-bottom: 20px;
+      color: #0e0e0e;
+      color: $color-letra;
+    font-family:$tipo-letra;
+    }
+    h3 {
+      padding-top: 8px;
+      padding-left: -5%;
+      font-size: 22px;
+      padding-bottom: 20px;
+      color: #0e0e0e;
+    }
+    label {
+      line-height: 30px;
+      font-size: 16px;
+      padding-left: 10px;
+      color: #0e0e0e;
+      margin-top: 10px;
+      align-content: stretch;
+      margin-top: 2px;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .container-contacto2 {
+      max-width: 100%;
+    }
+  }
+  

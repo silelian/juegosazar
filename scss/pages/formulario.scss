@@ -1,0 +1,53 @@
+
+/*************************formulario de contacto*************************/
+.contact_form {
+    width: 600px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 25px;
+    margin-top: 60px;
+  }
+  
+  @media (min-width: 400px) {
+    .contact_form {
+      max-width: 100%;
+    }
+    textarea {
+      max-width: 100%;
+    }
+  }
+  
+  .formulario {
+    h1 {
+      font-size: 39px;
+      text-align: letf;
+      padding-bottom: 20px;    
+      color: $color-letra;
+    font-family:$tipo-letra;
+    }
+  
+    h3 {
+      font-size: 16px;
+      padding-bottom: 30px;
+      color: #0e0e0e;
+    }
+    textarea {
+      background-color: #fbfbfb;
+      width: 450px;
+      height: 150px;
+      border-radius: 5px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #fa811b;
+      margin-top: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      padding-top: 15px;
+    }
+  }
+  
+  
