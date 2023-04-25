@@ -28,7 +28,7 @@
     .container-historia {
       max-width: 100%;
     }
-    
+          
   }
     
   .nav-lista-historia {
@@ -64,13 +64,17 @@
       padding-right: 35px;
     }
     img {
-      justify-content: center;
+       width: 100%; /*para q la imagen quede dentro de la tarjeta*/
       border: 2px solid transparent;
-      width: 200px;
-      height: 300px;
+      border-radius: 20px;
+      width: 350px;
+      height:250px;
       margin-left: 30%;
-      width: 35%; /*para q la imagen quede dentro de la tarjeta*/
-      /* overflow: hidden;/*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+      overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      // margin: 0px 10px 0px 0px;
     }
   }
   
