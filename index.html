@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" &amp;gt;>
-    <meta name="description" content="Loteria santiagueña">
+    <meta name="description" content="Loteria santiagueña numeros de los sueños">
     <link rel="stylesheet" href="./css/style.css">
     <title>Caja Social de Santiago del Estero.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,17 +18,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <!-- animaciones -->
-    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
 <body>
     <header class="header">
         <div class="container">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-color navbar-dark">                
-                    <div data-aos="zoom-in" >
-                     <a href="./index.html"><img class="icono-nav" src="./img/iconocaja1.png" alt="Icono"></a>
-                    
+            <nav class="navbar navbar-expand-lg fixed-top navbar-color navbar-dark">
+                <div class="container-fluid">
+                    <a href="./index.html"><img class="icono-nav" src="./img/iconocaja1.png" alt="Icono"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -61,8 +60,8 @@
     <main>
         <div class="row">
             <section class="portada-index">
-                <div class="animate__animated animate__backInDown mt-5" >                                        
-                    <h2>Loter&iacute;a de la Provincia</h2>                 
+                <div class="animate__animated animate__backInDown mt-5">
+                    <h2>Loter&iacute;a de la Provincia</h2>
                 </div>
             </section>
         </div>
@@ -84,18 +83,18 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                             aria-label="Slide 4"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner ">
                         <div class="carousel-item active">
-                            <img src="./img/slider/lotemovil.jpeg" class="d-block w-100" alt="...">
+                            <img src="./img/slider/lotemovil.jpeg" class="d-block w-100 img-fluid" alt="lotemovil">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slider/slide2.jpg" class="d-block w-100" alt="...">
+                            <img src="./img/slider/slide2.jpg" class="d-block w-100 img-fluid" alt="Imagen">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slider/slide3.gif" class="d-block w-100" alt="...">
+                            <img src="./img/slider/slide3.gif" class="d-block w-100 img-fluid" alt="Imagen">
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/slider/slide1.gif" class="d-block w-100" alt="...">
+                            <img src="./img/slider/slide1.gif" class="d-block w-100 img-fluid" alt="Imagen">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -114,37 +113,97 @@
 
             <!-- texto -->
             <div class="row mt-5">
-                <div class="container-texto">
-                    <article class="col">
-                        <div class="texto1">
+                <div class="">
+                    <div class="container-texto">
+                        <article class="texto">
                             <h2> Nuestra Misi&oacute;n </h2>
                             <hr>
-                            <p>Regular, administrar, explotar y ejercer el contralor de los
-                                juegos de
-                                azar a fin de
-                                presentar a la ciudadan&iacute;a una oferta l&uacute;dica ordenada y transparente,
-                                generando
-                                beneficios destinados a la promoción y asistencia social.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col">
-                        <div class="texto2">
+                            <p>Regular, administrar, explotar y ejercer el contralor de los juegos de azar a fin de
+                                presentar a la ciudadan&iacute;a una oferta l&uacute;dica ordenada y
+                                transparente,generando beneficios destinados a la promoción y asistencia social. </p>
+
+                        </article>
+                        <article class="texto">
                             <h2> Nuestros Juegos </h2>
                             <hr>
                             <p>Lotería Santiagueña</strong> inici&oacute; el año 1.941. <br>
                                 <strong>Tómbola Santiagueña</strong> su comercializaci&oacute;n comenz&oacute; el año
                                 1.971. <br>
                                 <strong>Quini Express</strong>, es una modalidad instant&aacute;nea de tómbola
-                                santiagueña.
-                            </p>
-                        </div>
-                    </article>
+                                santiagueña.</h3>
+                        </article>
+                    </div>
+                    <!--  -->
+
+
+                    <!-- </div> -->
+
                 </div>
             </div>
             <!-- fin texto  -->
+            <!-- horarios -->
+            <div class="textoslider">
+                <h2>Horarios de Sorteos</h2>
+                <hr>
+            </div>
+            <div class="row m-auto slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="./img/horarios/lunes.png" class="d-block w-100 img-fluid" alt="lunes">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/horarios/martes.png" class="d-block w-100 img-fluid" alt="martes">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/horarios/miercoles.png" class="d-block w-100 img-fluid" alt="miercoles">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/horarios/jueves.png" class="d-block w-100 img-fluid" alt="jueves">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/horarios/viernes.png" class="d-block w-100 img-fluid" alt="viernes">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/horarios/sabado.png" class="d-block w-100 img-fluid" alt="sabado">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/horarios/domingo.png" class="d-block w-100 img-fluid" alt="domingo">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- fin de horarios -->
+
+
             <!-- Novedades -->
-            <div class="row">
+            <div class="row mt-5">
                 <section class="container-novedad">
                     <h2>Noticias</h2>
                     <hr>
@@ -169,12 +228,11 @@
                 </section>
             </div>
             <!-- Novedades fin -->
-            <!-- horarios de sorteos -->
 
-            <!-- fin de horarios -->
             <!-- numeros de los sueños -->
             <div class="row">
                 <section class="container-numerossueños">
+                    <h2>Libro de Sueños</h2>
                     <hr>
                     <div class="contenedor-sueños">
                         <article class="tarjeta-numerossueños">

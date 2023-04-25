@@ -85,6 +85,11 @@
     opacity: 0.75;
     
   }
+
+  @media (min-width: 400px) {
+    .container-footer {
+      max-width: 100%;
+    }}
   
   .footer-basic .social > a:hover {
     opacity: 0.9;
