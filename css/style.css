@@ -566,16 +566,11 @@ body {
   .container-historia {
     max-width: 100%;
   }
-<<<<<<< HEAD
-  .historia img {
-    border: 2px solid black;
-    border-radius: 20px;
-=======
-  .historias img {
-    margin-left: 2%;
->>>>>>> 548d2fb771619fbaf19d8c578c33a99ae624b734
-  }
 }
+.historias img {
+  margin-left: 2%;
+}
+
 .nav-lista-historia {
   row-gap: 30px;
   padding: 50px;
