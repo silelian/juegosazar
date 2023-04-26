@@ -28,6 +28,7 @@
     .container-historia {
       max-width: 100%;
     }
+<<<<<<< HEAD
     .historia{
 
       img{
@@ -50,6 +51,18 @@
  
 
 
+=======
+    .historias{
+      img{
+        margin-left: 2%;
+        
+      }
+    }
+          
+  }
+  
+    
+>>>>>>> 548d2fb771619fbaf19d8c578c33a99ae624b734
   .nav-lista-historia {
     row-gap: 30px;
     padding: 50px;
@@ -63,14 +76,25 @@
       padding: 10px 10px;
     }
   }
+<<<<<<< HEAD
   // .img-fluid {
   //   max-width: 100%;
   // }
+=======
+>>>>>>> 548d2fb771619fbaf19d8c578c33a99ae624b734
   
   .historias {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-around;
+
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 30px;
+
+
   
     p {
       font-family: Arial, Helvetica, sans-serif;
@@ -83,8 +107,8 @@
       padding-right: 35px;
     }
     img {
-       width: 100%; /*para q la imagen quede dentro de la tarjeta*/
-      border: 2px solid transparent;
+      // width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+      // border: 2px solid transparent;
       border-radius: 20px;
       width: 256px;
       height:256px;
@@ -93,7 +117,12 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      // margin: 0px 10px 0px 0px;
+         
+       .img-fluid{
+        max-width: 100%;
+        
+      }
     }
+    
   }
   
