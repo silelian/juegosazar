@@ -398,6 +398,13 @@ body {
     max-width: 100%;
   }
 }
+@media (max-width: 400px) {
+  .contenedor-juegos .cartarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .contenedor-juegos {
   display: flex;
   flex-direction: row;
@@ -580,6 +587,10 @@ body {
   .container-historia {
     max-width: 100%;
   }
+  .historia img {
+    border: 2px solid black;
+    border-radius: 20px;
+  }
 }
 .nav-lista-historia {
   row-gap: 30px;
@@ -592,10 +603,6 @@ body {
   border: 2px solid rgb(229, 224, 224);
   border-radius: 5px;
   padding: 10px 10px;
-}
-
-.img-fluid {
-  max-width: 100%;
 }
 
 .historias {
@@ -617,8 +624,8 @@ body {
   width: 100%; /*para q la imagen quede dentro de la tarjeta*/
   border: 2px solid transparent;
   border-radius: 20px;
-  width: 350px;
-  height: 250px;
+  width: 256px;
+  height: 256px;
   margin-left: 30%;
   overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
   display: flex;

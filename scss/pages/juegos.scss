@@ -32,8 +32,17 @@
     .container-juegos {
       max-width: 100%;    
      }
-     
-  }  
+    
+  } 
+  @media(max-width:400px){
+    .contenedor-juegos{
+      .cartarjeta{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+    }
+  } 
   .contenedor-juegos {
     display: flex;
     flex-direction: row;
@@ -51,6 +60,7 @@
       justify-content: space-around;
       align-items: center;
     }
+  
   }
   
   

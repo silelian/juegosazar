@@ -28,9 +28,28 @@
     .container-historia {
       max-width: 100%;
     }
-          
+    .historia{
+
+      img{
+        //  width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+       border: 2px solid black;
+       border-radius: 20px;
+      //  width: 350px;
+      //  height:250px;
+      //  margin-left: -100%;
+       //overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+      //  display: flex;
+      //  justify-content: space-around;
+      //  align-items: center;
+       
+   }
+    }
   }
-    
+   
+ 
+ 
+
+
   .nav-lista-historia {
     row-gap: 30px;
     padding: 50px;
@@ -44,9 +63,9 @@
       padding: 10px 10px;
     }
   }
-  .img-fluid {
-    max-width: 100%;
-  }
+  // .img-fluid {
+  //   max-width: 100%;
+  // }
   
   .historias {
     display: flex;
@@ -67,8 +86,8 @@
        width: 100%; /*para q la imagen quede dentro de la tarjeta*/
       border: 2px solid transparent;
       border-radius: 20px;
-      width: 350px;
-      height:250px;
+      width: 256px;
+      height:256px;
       margin-left: 30%;
       overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
       display: flex;
