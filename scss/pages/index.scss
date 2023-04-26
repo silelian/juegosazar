@@ -160,6 +160,15 @@
     .container-texto {
       max-width: 100%;
     }}
+
+   /**************horarios**************************/ 
+   .carousel-img{
+    img{
+      
+      max-width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+    height: 400px;
+    }
+   }
   /********************novedades***********************/
   .novedad {
     display: flex;
@@ -223,6 +232,7 @@
   }
   .img-fluid {
     max-width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+    height: 100px;
   }
   
   /************************ numeros de los sueños***************/

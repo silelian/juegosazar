@@ -262,6 +262,12 @@ body {
     max-width: 100%;
   }
 }
+/**************horarios**************************/
+.carousel-img img {
+  max-width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+  height: 400px;
+}
+
 /********************novedades***********************/
 .novedad {
   display: flex;
@@ -326,6 +332,7 @@ body {
 
 .img-fluid {
   max-width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+  height: 100px;
 }
 
 /************************ numeros de los sueños***************/
@@ -567,10 +574,6 @@ body {
     max-width: 100%;
   }
 }
-.historias img {
-  margin-left: 2%;
-}
-
 .nav-lista-historia {
   row-gap: 30px;
   padding: 50px;
