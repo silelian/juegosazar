@@ -27,10 +27,9 @@
     h2 {
       padding-top: 15px;
       padding-left: -5%;
-      font-size: 22px;
       padding-bottom: 20px;
-      color: #0e0e0e;
       color: $color-letra;
+      
     font-family:$tipo-letra;
     }
     h3 {
@@ -58,7 +57,7 @@
     }
   }
   
-  @media (min-width: 400px) {
+  @media (min-width: 375px) {
     .container-contacto2 {
       max-width: 100%;
     }

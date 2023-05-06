@@ -16,6 +16,9 @@
       color: $color-letra;
     font-family:$tipo-letra;
     }
+    h2{
+      color:$color-letra;
+    }
     hr {
       height: 2px;
       margin-left: -1%;
@@ -24,11 +27,7 @@
       border: 1px solid #fa8807;
     }
   }
-  @media (min-width: 400px) {
-    .container-historia {
-      max-width: 100%;
-    }
-  }
+ 
     
   .nav-lista-historia {
     row-gap: 30px;
@@ -43,27 +42,16 @@
       padding: 10px 10px;
     }
   }
-
-  // .img-fluid {
-  //   max-width: 100%;
-  // }
-
   
   .historias {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-around;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 30px;
-
-
-  
+ 
     p {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: $tipo-letra;
       text-align: justify;
       line-height: 50px;
       margin: 15px 0px 10px 70px;
@@ -73,8 +61,6 @@
       padding-right: 35px;
     }
     img {
-      // width: 100%; /*para q la imagen quede dentro de la tarjeta*/
-      // border: 2px solid transparent;
       border-radius: 20px;
       width: 256px;
       height:256px;
@@ -83,12 +69,21 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-         
-       .img-fluid{
-        max-width: 100%;
-        
-      }
+      
     }
     
+  }
+
+  @media (min-width: 375px) {
+    .container-historia {
+      max-width: 100%;
+    }
+    .historia{
+      img{
+        max-width: 100%;
+        margin-left: auto;
+        
+      }
+    }   
   }
   

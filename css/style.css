@@ -87,7 +87,7 @@ body {
   opacity: 0.75;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .container-footer {
     max-width: 100%;
   }
@@ -117,17 +117,23 @@ body {
   margin-top: 60px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .container-index {
     max-width: 100%;
   }
 }
-/*header PADRE*/
+@media (min-width: 1200px) {
+  .container-index {
+    max-width: 100%;
+  }
+  .container ul {
+    margin-right: 10px;
+  }
+}
 .navbar-color {
   background-color: rgba(87, 85, 83, 0.631372549);
 }
 
-/*HIJO*/
 .icono-nav {
   max-width: 100%;
   height: 50px;
@@ -151,24 +157,28 @@ body {
   background-image: url(../img/menu_Moment2.gif);
   background-position: center;
   background-size: cover;
-  display: flex; /**alinea el texto*/
-  align-items: center; /**alinea el texto*/
-  justify-content: center; /**alinea el texto*/
+  display: flex;
+  /**alinea el texto*/
+  align-items: center;
+  /**alinea el texto*/
+  justify-content: center;
+  /**alinea el texto*/
   margin-top: 90px;
   width: 100%;
   max-height: 400px;
-  height: 94vh; /*q cubra el alto de la pantalla e¡alto del viewport */
+  height: 94vh;
+  /*q cubra el alto de la pantalla e¡alto del viewport */
 }
-.portada-index h2 {
+.portada-index h1 {
   color: whitesmoke;
   font-size: 4rem;
   font-family: "Times New Roman", Times, serif;
 }
-.portada-index h2:hover {
+.portada-index h1:hover {
   color: #fa8807;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .portada-index {
     max-width: 100%;
   }
@@ -215,6 +225,11 @@ body {
 }
 
 /**********************texto***************/
+@media (min-width: 375px) {
+  .container-texto {
+    max-width: 100%;
+  }
+}
 .container-texto {
   display: flex;
   flex-direction: row;
@@ -226,7 +241,8 @@ body {
   border: 10px solid transparent;
   width: 450px;
   height: 400px;
-  overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+  overflow: hidden;
+  /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -257,17 +273,16 @@ body {
   padding: 0 10px 30px 20px;
 }
 
-@media (min-width: 400px) {
+/**************horarios**************************/
+@media (min-width: 375px) {
   .container-texto {
     max-width: 100%;
   }
+  .carousel-item img {
+    max-width: 420%;
+    height: 300%;
+  }
 }
-/**************horarios**************************/
-.carousel-img img {
-  max-width: 100%; /*para q la imagen quede dentro de la tarjeta*/
-  height: 400px;
-}
-
 /********************novedades***********************/
 .novedad {
   display: flex;
@@ -305,19 +320,22 @@ body {
   border: 10px solid transparent;
   width: 250px;
   height: 400px;
-  overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+  overflow: hidden;
+  /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 .tarjeta img {
-  width: 100%; /*para q la imagen quede dentro de la tarjeta*/
+  width: 100%;
+  /*para q la imagen quede dentro de la tarjeta*/
   border: 2px solid transparent;
   border-radius: 10px;
   width: 450px;
   height: 250px;
-  overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+  overflow: hidden;
+  /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -331,8 +349,9 @@ body {
 }
 
 .img-fluid {
-  max-width: 100%; /*para q la imagen quede dentro de la tarjeta*/
-  height: 100px;
+  max-width: 100%;
+  /*para q la imagen quede dentro de la tarjeta*/
+  height: 90px;
 }
 
 /************************ numeros de los sueños***************/
@@ -392,6 +411,9 @@ body {
   color: #fa811b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container-juegos h2 {
+  color: #fa811b;
+}
 .container-juegos hr {
   height: 2px;
   margin-left: -2%;
@@ -400,12 +422,12 @@ body {
   border: 1px solid #fa8807;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .container-juegos {
     max-width: 100%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .contenedor-juegos .cartarjeta {
     display: flex;
     justify-content: center;
@@ -430,9 +452,17 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+.contenedor-juegos p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  line-height: inherit;
+  font-size: 14px;
+  line-height: 20px;
+}
+.contenedor-juegos h3 {
+  text-align: center;
+}
 
-/**********************************/
-/*imagenes*/
 /*************************formulario de contacto*************************/
 .contact_form {
   width: 600px;
@@ -446,7 +476,7 @@ body {
   margin-top: 60px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .contact_form {
     max-width: 100%;
   }
@@ -460,6 +490,9 @@ body {
   padding-bottom: 20px;
   color: #fa811b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario h2 {
+  color: #fa811b;
 }
 .formulario h3 {
   font-size: 16px;
@@ -508,9 +541,7 @@ body {
 .container-contacto2 h2 {
   padding-top: 15px;
   padding-left: -5%;
-  font-size: 22px;
   padding-bottom: 20px;
-  color: #0e0e0e;
   color: #fa811b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -538,7 +569,7 @@ body {
   gap: 20px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .container-contacto2 {
     max-width: 100%;
   }
@@ -561,6 +592,9 @@ body {
   color: #fa811b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container-historia h2 {
+  color: #fa811b;
+}
 .container-historia hr {
   height: 2px;
   margin-left: -1%;
@@ -569,11 +603,6 @@ body {
   border: 1px solid #fa8807;
 }
 
-@media (min-width: 400px) {
-  .container-historia {
-    max-width: 100%;
-  }
-}
 .nav-lista-historia {
   row-gap: 30px;
   padding: 50px;
@@ -595,7 +624,7 @@ body {
   margin-top: 30px;
 }
 .historias p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   line-height: 50px;
   margin: 15px 0px 10px 70px;
@@ -614,8 +643,15 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.historias img .img-fluid {
-  max-width: 100%;
+
+@media (min-width: 375px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historia img {
+    max-width: 100%;
+    margin-left: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
