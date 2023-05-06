@@ -527,10 +527,10 @@ body {
   display: flex;
 }
 .container-contacto2 hr {
-  height: 2px;
+  height: 1px;
   margin-left: -2%;
-  margin-right: -100%;
-  margin-top: 1%;
+  margin-right: -50%;
+  margin-top: -5%;
   border: 1px solid #fa8807;
   /* background-color: #ffbc3b;    */
 }
