@@ -184,7 +184,6 @@ body {
   }
 }
 .portada-texto {
-  /* background-color: rgba(95, 158, 160, 0.541); */
   padding: 15px;
   color: white;
   display: flex;
@@ -275,12 +274,13 @@ body {
 
 /**************horarios**************************/
 @media (min-width: 375px) {
-  .container-texto {
-    max-width: 100%;
+  .carousel-inner img {
+    max-width: 50%;
   }
-  .carousel-item img {
-    max-width: 420%;
-    height: 300%;
+}
+@media (min-width: 1200px) {
+  .carousel-inner img {
+    padding: 0 20px 10px 200px;
   }
 }
 /********************novedades***********************/
@@ -642,16 +642,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-@media (min-width: 375px) {
-  .container-historia {
-    max-width: 100%;
-  }
-  .historia img {
-    max-width: 100%;
-    margin-left: auto;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
