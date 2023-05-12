@@ -275,12 +275,12 @@ body {
 /**************horarios**************************/
 @media (min-width: 375px) {
   .carousel-inner img {
-    max-width: 50%;
+    max-width: 90%;
   }
 }
 @media (min-width: 1200px) {
   .carousel-inner img {
-    padding: 0 20px 10px 200px;
+    padding: 0 25px 10px 200px;
   }
 }
 /********************novedades***********************/
