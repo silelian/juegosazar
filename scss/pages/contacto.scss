@@ -57,7 +57,10 @@
       gap: 20px;
     }
   }
-  
+  body{
+    margin: 0px;
+   }
+   
   @media (min-width: 375px) {
     .container-contacto2 {
       max-width: 100%;
