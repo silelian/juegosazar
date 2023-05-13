@@ -603,45 +603,298 @@ body {
   border: 1px solid #fa8807;
 }
 
-.nav-lista-historia {
+.lista-historia ul {
+  row-gap: 30px;
+  padding: 50px;
   row-gap: 30px;
   padding: 50px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  gap: 4px;
 }
-.nav-lista-historia li a {
+.lista-historia li a {
   border: 2px solid rgb(229, 224, 224);
   border-radius: 5px;
   padding: 10px 10px;
 }
 
-.historias {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 30px;
+@media screen and (max-width: 1200px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 22rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
-.historias p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: justify;
-  line-height: 50px;
-  margin: 15px 0px 10px 70px;
-  line-height: inherit;
-  font-size: 16px;
-  line-height: 30px;
-  padding-right: 35px;
+@media screen and (max-width: 576px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 22rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
-.historias img {
-  border-radius: 20px;
-  width: 256px;
-  height: 256px;
-  margin-left: 30%;
-  overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+@media screen and (max-width: 991px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 22rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .lista-historia ul {
+    row-gap: 30px;
+    padding: 50px;
+    row-gap: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+  .lista-historia li a {
+    border: 2px solid rgb(229, 224, 224);
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -2rem;
+    margin-right: 38rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 35px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 3rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 375px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .lista-historia ul {
+    row-gap: 30px;
+    padding: 50px;
+    row-gap: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+  }
+  .lista-historia ul li a {
+    border: 2px solid rgb(229, 224, 224);
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin-left: -90%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 4rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 576px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 8rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 991px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 22rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-historia {
+    max-width: 100%;
+  }
+  .historias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .historias p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 50px;
+    margin-left: -1rem;
+    margin-right: 2rem;
+    line-height: inherit;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .historias img {
+    border-radius: 20px;
+    width: 15rem;
+    margin-left: 20rem;
+    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
