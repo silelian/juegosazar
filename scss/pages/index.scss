@@ -55,6 +55,7 @@ $tipo-letra: Verdana, Geneva, Tahoma, sans-serif;
 /*portada-index*/
 .portada-index {
   background-image: url(../img/menu_Moment2.gif);
+  
   background-position: center;
   background-size: cover;
 
@@ -68,8 +69,7 @@ $tipo-letra: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 90px;
   width: 100%;
   max-height: 400px;
-  height: 94vh;
-  /*q cubra el alto de la pantalla e¡alto del viewport */
+  height: 94vh;  
 
   h1 {
     color: whitesmoke;
