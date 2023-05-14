@@ -403,11 +403,6 @@ body {
 }
 
 /****************************juegos*************************/
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
 .container-juegos {
   width: 1000px;
   height: auto;
@@ -477,11 +472,6 @@ body {
 }
 
 /*************************formulario de contacto*************************/
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
 .contact_form {
   width: 600px;
   height: auto;
@@ -641,7 +631,7 @@ body {
   padding: 10px 10px;
 }
 
-@media screen and (min-width: 375px) {
+@media (min-width: 375px) {
   .container-historia {
     max-width: 100%;
   }
@@ -719,9 +709,6 @@ body {
   }
 }
 @media screen and (min-width: 991px) {
-  .container-historia {
-    max-width: 100%;
-  }
   .historias {
     display: flex;
     flex-direction: row;
