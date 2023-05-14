@@ -1,6 +1,10 @@
 
 $tipo-letra: Verdana, Geneva, Tahoma, sans-serif;
 /****************************juegos*************************/
+body{
+  margin: 0px;
+  padding:0px;
+}
 
 .container-juegos {
     width: 1000px;
@@ -31,10 +35,7 @@ $tipo-letra: Verdana, Geneva, Tahoma, sans-serif;
     }
     
   }
-  body{
-    margin: 0px;
-   }
-  
+
   @media (min-width: 375px) {
     .container-juegos {
       max-width: 100%;    

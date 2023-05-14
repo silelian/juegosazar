@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   text-decoration: none;
 }
@@ -105,6 +110,11 @@ body {
   color: rgb(246, 81, 56);
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .container-index {
   width: 1200px;
   height: auto;
@@ -115,10 +125,6 @@ body {
   background-color: #fbfbfb;
   padding-left: 30px;
   margin-top: 60px;
-}
-
-body {
-  margin: 0px;
 }
 
 @media (min-width: 375px) {
@@ -143,7 +149,6 @@ body {
   height: 50px;
   border: 1px solid #fa811b;
   border-radius: 5px;
-  margin-left: 30px;
 }
 
 .nav-item {
@@ -398,6 +403,11 @@ body {
 }
 
 /****************************juegos*************************/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .container-juegos {
   width: 1000px;
   height: auto;
@@ -423,10 +433,6 @@ body {
   margin-right: 1%;
   margin-top: 1%;
   border: 1px solid #fa8807;
-}
-
-body {
-  margin: 0px;
 }
 
 @media (min-width: 375px) {
@@ -473,6 +479,7 @@ body {
 /*************************formulario de contacto*************************/
 body {
   margin: 0px;
+  padding: 0px;
 }
 
 .contact_form {
@@ -525,6 +532,11 @@ body {
 }
 
 /******************direcciones-contacto2**************/
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 .container-contacto2 {
   width: 900px;
   height: auto;
@@ -580,10 +592,6 @@ body {
   gap: 20px;
 }
 
-body {
-  margin: 0px;
-}
-
 @media (min-width: 375px) {
   .container-contacto2 {
     max-width: 100%;
@@ -633,137 +641,6 @@ body {
   padding: 10px 10px;
 }
 
-body {
-  margin: 0px;
-}
-
-@media screen and (max-width: 1200px) {
-  .historias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0px;
-  }
-  .historias p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    line-height: 50px;
-    margin-left: -1rem;
-    margin-right: 1rem;
-    line-height: inherit;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .historias img {
-    border-radius: 20px;
-    width: 15rem;
-    margin-left: 22rem;
-    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 576px) {
-  .historias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 30px;
-  }
-  .historias p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    line-height: 50px;
-    margin-left: -1rem;
-    margin-right: 1rem;
-    line-height: inherit;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .historias img {
-    border-radius: 20px;
-    width: 15rem;
-    margin-left: 22rem;
-    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 991px) {
-  .historias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 30px;
-  }
-  .historias p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    line-height: 50px;
-    margin-left: -1rem;
-    margin-right: 1rem;
-    line-height: inherit;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .historias img {
-    border-radius: 20px;
-    width: 15rem;
-    margin-left: 22rem;
-    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 375px) {
-  .lista-historia ul {
-    row-gap: 30px;
-    padding: 50px;
-    row-gap: 30px;
-    padding: 50px;
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-  }
-  .lista-historia li a {
-    border: 2px solid rgb(229, 224, 224);
-    border-radius: 5px;
-    padding: 10px 10px;
-  }
-  .historias {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 30px;
-  }
-  .historias p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    line-height: 50px;
-    margin-left: -2rem;
-    margin-right: 38rem;
-    line-height: inherit;
-    font-size: 16px;
-    line-height: 30px;
-    padding-right: 35px;
-  }
-  .historias img {
-    border-radius: 20px;
-    width: 15rem;
-    margin-left: 3rem;
-    overflow: hidden; /*sale del contenedor no se ve cdo la imagen sale de la tarjeta*/
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
 @media screen and (min-width: 375px) {
   .container-historia {
     max-width: 100%;
@@ -873,7 +750,7 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .container-historia {
+  .container-index {
     max-width: 100%;
   }
   .historias {

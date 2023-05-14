@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+  padding:0px;
+}
 .container-index {
   width: 1200px;
   height: auto;
@@ -9,9 +13,7 @@
   padding-left: 30px;
   margin-top: 60px;
 }
-body{
-  margin: 0px;
-}
+
 
 @media (min-width: 375px) {
   .container-index {
@@ -39,7 +41,7 @@ body{
   height: 50px;
   border: 1px solid #fa811b;
   border-radius: 5px;
-  margin-left: 30px;
+  // margin-left: 30px;
 }
 
 .nav-item {

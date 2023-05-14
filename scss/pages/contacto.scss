@@ -1,5 +1,9 @@
 
 /******************direcciones-contacto2**************/
+body{
+  margin: 0px;
+  padding:0px;
+}
 .container-contacto2 {
     width: 900px;
     height: auto;
@@ -57,9 +61,7 @@
       gap: 20px;
     }
   }
-  body{
-    margin: 0px;
-   }
+ 
    
   @media (min-width: 375px) {
     .container-contacto2 {
